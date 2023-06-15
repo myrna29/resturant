@@ -1,0 +1,685 @@
+/*start gloga rules*/
+*{
+   
+    padding: 0;
+    margin: 0;
+
+}
+/**end gloga rules**/
+/**start header**/
+ .header{
+
+    height:831px;
+    background-image: url("../imges/f1.jpg");
+background-size: cover;
+padding: 1px;
+ }
+ .header .logo {
+    margin: 20px;
+ }
+ .header .logo img{
+    margin:0 auto ;
+    display: block;
+ width: 167PX;
+ height: 100PX;
+ border-radius: 50PX;
+}
+.header .navbar{
+    width: 70%;
+    height: 50px;
+     margin: 0 auto;
+     
+     border-top: 2px solid #1c1608;
+     border-bottom: 2px solid #1c1608;
+    
+    }
+.header .navbar ul{
+    text-align: center; 
+    list-style: none;  
+    }
+   .header .navbar ul li{
+       display: inline-block;
+       margin-left: 50px;
+       line-height: 50px;
+   }
+   .header ul li a {
+   color:#44702e;
+   text-decoration: none;
+   }
+   .header .sub_title p{
+    margin: 38px 0 20px -5px;
+color: #44702e;
+font-size: 18px;
+letter-spacing: 2px;
+}
+.header .title h1{
+    margin: 0 0 20px -5px;
+    font-size: 70px;
+    color:#44702e;
+}
+.header .des p{
+    margin: 0 0 20px -5px;
+    color: #44702e;
+    width: 480px;
+    letter-spacing: 1px;
+}
+.header .ptn button{
+
+    margin:180 px ;  
+  padding: 10px ;
+margin-left: 177px;
+  font-size: bold;
+background-color:#44702e;
+color:#cadfbf;
+border: none;
+}
+
+
+/**end header**/
+/**start offers**/
+.food {
+    margin: 20px 0;
+    text-align: center;
+   color:#2a5215;
+
+}
+.food  ::after{
+   
+    content:"" ;
+    width: 200px;
+    height: 3px;
+   
+    display:block;
+    margin: 0 auto;  
+   
+}
+.sfood{
+    width: 80%;
+    height: 600px;
+
+margin: 20px auto;
+}
+.sfood .item_food{
+    width:300px ;
+    height: 400px;
+   
+float: left ;
+
+margin-left: 43px;
+
+}
+.sfood .item_food .imge img{
+    width: 100%;
+    height: 200px;
+animation: 0.4s;
+}
+.sfood .item_food .imge img :hover{
+    transform: scale(1.2);
+}
+
+.sfood .item_food .food_name{
+    text-align: center;
+    margin: 10px 0;
+    color: #2a5215;
+}
+
+.sfood .item_food .food_price{
+    text-align: center;
+    margin:10px ;
+    color: #2a5215;
+}
+.sfood .item_food .food_des{
+    text-align: center;
+    color: gray;
+}
+.sfood .item_food .food_btn button{
+    width: 80%;
+    padding: 7px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    margin: 20px auto;
+    display: block;
+    cursor: pointer;
+    background-color:#44702e;
+    color: #cadfbf;
+   
+}
+.cart{
+margin-left: 125px;
+width: 10px;
+color:#44702e;
+font-size: 30px;
+cursor: pointer;
+}
+/**end offers**/
+
+/**start link**/
+.link{
+    margin: 20px auto;
+    padding: 20px;
+letter-spacing: 10px;
+}
+
+/**end link**/
+/**start food**/
+.head{
+
+    height:831px;
+    background-image: url("../imges/food/reservation-bg.jpg");
+background-size: cover;
+padding: 1px;
+ }
+ .head .log {
+    margin: 20px;
+ }
+ .head .log img{
+    margin:0 auto ;
+    display: block;
+ width: 167PX;
+ height: 100PX;
+ border-radius: 50PX;
+}
+.head .nav{
+    width: 70%;
+    height: 50px;
+     margin: 0 auto;
+     
+     border-top: 2px solid#362f18;
+     border-bottom: 2px solid #362f18;
+    
+    }
+.head .nav ul{
+    text-align: center; 
+    list-style: none;
+     
+    }
+   .head .nav ul li{
+       display: inline-block;
+       margin-left: 50px;
+       line-height: 50px;
+     
+   }
+   .head ul li a {
+   color:rgb(11, 179, 25);
+   text-decoration: none;
+ 
+   }
+/**end food**/
+/**start menu**/
+.men{
+    margin: 20px 0;
+    text-align: center;
+   color:#2a5215;
+
+}
+.men  ::after{
+   
+    content:"" ;
+    width: 200px;
+    height: 2px;
+   
+    display:block;
+    margin: 0 auto;  
+   
+}
+.img{
+    width: 80%;
+    height:1600px;
+   margin: 20px auto;
+ 
+}
+.img .item_img{
+    width: 300px;
+    height: 250px;
+
+
+}
+.img .item_img{
+    width:300px ;
+    height: 400px;
+   
+float: left ;
+
+margin-left: 43px;
+margin-top:70px ;
+}
+.img .item_img .imges img{
+    width: 100%;
+    height: 200px;
+animation: 0.4s;
+}
+
+.img .item_img .img_name{
+    text-align: center;
+    margin: 10px 0;
+    color: #2a5215;
+}
+
+.img .item_img .img_price{
+    text-align: center;
+    margin:10px ;
+    color: #2a5215;
+}
+.img .item_img .img_des{
+    text-align: center;
+    color: gray;
+}
+.img .item_img .img_btn button{
+    width: 80%;
+    padding: 7px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    margin: 20px auto;
+    display: block;
+    cursor: pointer;
+    background-color:#44702e;
+    color: #cadfbf;
+   
+}
+.cart{
+margin-left: 125px;
+width: 10px;
+color:#44702e;
+font-size: 30px;
+cursor: pointer;
+}
+
+/**end menu**/
+/**start header**/
+.headn{
+
+    height:831px;
+    background-image: url("../imges/m.jpg");
+background-size: cover;
+padding: 1px;
+ }
+ .headn .lo {
+    margin: 20px;
+ }
+ .headn .lo img{
+    margin:0 auto ;
+    display: block;
+ width: 167PX;
+ height: 100PX;
+ border-radius: 50PX;
+}
+.headn .navu{
+    width: 70%;
+    height: 50px;
+     margin: 0 auto;
+     
+     border-top: 2px solid #0c0c0c;
+     border-bottom: 2px solid #0c0c0c;
+    
+    }
+.headn .navu ul{
+    text-align: center; 
+    list-style: none;  
+    }
+   .headn .navu ul li{
+       display: inline-block;
+       margin-left: 50px;
+       line-height: 50px;
+   }
+   .headn ul li a {
+   color:black;
+   text-decoration: none;
+   }
+ .title_s h1{
+    margin: 20px auto;
+    padding: 20px;
+    margin-left: 180px;
+}
+ .des_c p{
+        margin: 0 0 20px 198px;
+        color:black;
+        width: 480px;
+        letter-spacing: 1px;
+}
+
+.sweet{
+    margin: 20px 0;
+    text-align: center;
+   color:black;}
+
+.sweet::after{
+    content:"" ;
+    width: 200px;
+    height: 3px;
+   
+    display:block;
+    margin: 0 auto;  
+}
+   
+
+.swee{
+    width: 80%;
+    height:1600px;
+   margin: 20px auto;
+ 
+}
+.swee .item_sw{
+    width: 300px;
+    height: 250px;
+
+
+}
+.swee .item_sw{
+    width:300px ;
+    height: 400px;
+   
+float: left ;
+
+margin-left: 43px;
+margin-top:70px ;
+}
+.swee .item_sw .sweets img{
+    width: 100%;
+    height: 200px;
+animation: 0.4s;
+}
+
+.swee .item_sw .swe_name{
+    text-align: center;
+    margin: 10px 0;
+    color: black;
+}
+
+.swee .item_sw .swe_price{
+    text-align: center;
+    margin:10px ;
+    color:black;
+}
+.swee .item_sw .swe_des{
+    text-align: center;
+    color: gray;
+}
+.swee .item_sw .swe_btn button{
+    width: 80%;
+    padding: 7px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    margin: 20px auto;
+    display: block;
+    cursor: pointer;
+    background-color:gray;
+    color: #cadfbf;
+   
+}
+.cart{
+margin-left: 125px;
+width: 10px;
+color:gray;
+font-size: 30px;
+cursor: pointer;
+}
+
+/**end menu**/
+/**end header**/
+/**start drink**/
+.heade{
+
+    height:831px;
+    background-image: url("../imges/sweet/dr.jpg");
+background-size: cover;
+padding: 1px;}
+.heade .logo {
+    margin: 20px;
+ }
+ .heade .logo img{
+    margin:0 auto ;
+    display: block;
+ width: 167PX;
+ height: 100PX;
+ border-radius: 50PX;
+}
+.heade .navb{
+    width: 70%;
+    height: 50px;
+     margin: 0 auto;
+     
+     border-top: 2px solid rgb(5 75 5);
+     border-bottom: 2px solid rgb(5 75 5);
+    
+    }
+.heade .navb ul{
+    text-align: center; 
+    list-style: none;  
+    }
+   .heade .navb ul li{
+       display: inline-block;
+       margin-left: 50px;
+       line-height: 50px;
+   }
+   .heade ul li a {
+   color: rgb(7 133 7);
+   text-decoration: none;
+   }
+   .heade .sub_title p{
+    margin: 38px 0 20px 265px;
+color:  rgb(7 133 7);
+font-size: 18px;
+letter-spacing: 2px;
+}
+.heade .title h1{
+    margin: 0 0 20px 265px;
+    font-size: 70px;
+    color: rgb(7 133 7);
+}
+.heade .des p{
+    margin: 0 0 20px 265px;
+    color:  rgb(7 133 7);
+    width: 480px;
+    letter-spacing: 1px;
+  
+}
+
+
+/**end drink**/
+/**start login**/
+.login{
+    height:831px;
+    background-image: url("../imges/ss.jpg");
+background-size: cover;
+padding: 1px;}
+form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 420px;
+    background: rgba(126, 112, 112, 0.5);
+    border-radius: 15px;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+.login form img{
+    border-radius: 50px;
+    margin:-10px;
+    padding: 10px;
+}
+.login form input{
+padding: 6px;
+margin: 10px;
+
+}
+input[value="SEND"]{
+    position: absolute;
+    top: 305px;
+    left: 110px;
+    width: 130px;
+    height: 35px;
+    background: rgb(126, 112, 112, 0.5);
+    border: #fff;
+    border-radius: 15px;
+    font-size: 20px;
+}
+input[value="SEND"]:hover{
+    background-color: #fff;
+    color: #1c1608;
+}
+/**end login**/
+/**start baked**/
+.baked{
+
+    height:831px;
+    background-image: url("../imges/baked/bc.jpg");
+background-size: cover;
+padding: 1px;
+ }
+ .baked .log {
+    margin: 20px;
+ }
+ .baked .log img{
+    margin:0 auto ;
+    display: block;
+ width: 167PX;
+ height: 100PX;
+ border-radius: 50PX;
+}
+.baked .nav_u{
+    width: 70%;
+    height: 50px;
+     margin: 0 auto;
+     
+     border-top: 2px solid #e4dbdb;
+     border-bottom: 2px solid #e4dbdb;
+    
+    }
+.baked .nav_u ul{
+    text-align: center; 
+    list-style: none;  
+    }
+   .baked .nav_u ul li{
+       display: inline-block;
+       margin-left: 50px;
+       line-height: 50px;
+   }
+   .baked ul li a {
+   color:#ddd;
+   text-decoration: none;
+   }
+ .title_ss h1{
+    margin: 20px auto;
+    padding: 20px;
+    margin-left: -664px;
+}
+ .des_cc p{
+        margin: 0 0 20px 198px;
+        color:rgb(250, 239, 239);
+        width: 480px;
+        letter-spacing: 1px;
+}
+
+
+.back{
+    margin: 20px 0;
+    text-align: center;
+   color:rgb(14, 12, 12);}
+
+.back ::after{
+   
+        content:"" ;
+        width: 200px;
+        height: 3px;
+       
+        display:block;
+        margin: 0 auto;  
+    }
+
+.bak{
+    width: 80%;
+    height:1600px;
+   margin: 20px auto;
+}
+
+.bak .item_b{
+    width: 300px;
+    height: 250px;
+
+
+}
+.bak .item_b{
+    width:300px ;
+    height: 400px;
+
+margin-left: 43px;
+margin-top:70px ;
+float: left;
+}
+.bak .item_b .bakeds img{
+    width: 100%;
+    height: 200px;
+animation: 0.4s;
+}
+
+.bak .item_b .b_name{
+    text-align: center;
+    margin: 10px 0;
+    color: black;
+}
+
+.bak .item_b .b_price{
+    text-align: center;
+    margin:10px ;
+    color:black;
+}
+.bak .item_b .b_des{
+    text-align: center;
+    color: gray;
+}
+.bak .item_b .b_btn button{
+    width: 80%;
+    padding: 7px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    margin: 20px auto;
+    display: block;
+    cursor: pointer;
+    background-color:gray;
+    color: #cadfbf;
+   
+}
+.cart{
+margin-left: 125px;
+width: 10px;
+color:gray;
+font-size: 30px;
+cursor: pointer;
+}
+
+/**end backed**/
+.text{
+   font-size: 50px;
+ margin: 20px auto;
+    padding: 20px;
+display:inline-block;
+margin-left: 496px;
+color: #2a5215;
+
+}
+.par{
+  
+    margin-left:  496px;
+color:#2a5215 ;
+}
+.ptn-1{
+margin-left: 496px;
+padding: 20px;
+}
+.ptn-1 a{
+    padding: 106px;
+   
+}
+.ptn-1 a button{
+    border-radius: 20px;
+    width: 170px;
+    border: none;
+    padding: 10px;
+}
